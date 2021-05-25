@@ -29,6 +29,8 @@ struct menu1* Record_1 (struct menu1 *ph,char a[],char b[],char c[],char d[]);//
 
 struct menu1* Seeit_1 (struct menu1 *head);//查看所有数据
 
+struct menul* Read1 (struct menu1 *head);
+
 struct menu1* Delete_1 (struct menu1 *p,char x[]);//删除实现
 
 struct menu1* Find_1 (struct menu1 *head,char sp);//查询函数

@@ -8,6 +8,30 @@
 #include"../Headers/Core1.h"
 #include"../Headers/Core2.h"
 
+
+/*存储基本信息函数接口*/
+struct menu1* Store1 (struct menu1 *head)
+{
+    if (!head)
+        return NULL;
+    FILE *file1;
+    file1 = fopen (filebuffer1,"wb+");
+    struct menu1 *queue[1000];
+    int first = 0,tail = 0;
+    queue[tail++] = head;//数结构队列
+    if (file1==NULL)
+        return head;
+    while(first < tail)
+    {
+        if (queue[first]->left)  queue[tail++] = queue[first]->left;
+        if (queue[first]->right) queue[tail++] = queue[first]->right;
+        fprintf(file1,"%s %s %s %s\n",queue[first]->sn,queue[first]->name,queue[first]->chat,queue[first]->dor);
+        first++;
+    }
+    fclose(file1);
+    return head;
+}
+
 /*从文件中读取信息数据函数接口*/
 struct menul* Read1 (struct menu1 *head)
 {
@@ -35,28 +59,6 @@ struct menul* Read1 (struct menu1 *head)
     return head;
 }
 
-/*存储基本信息函数接口*/
-struct menu1* Store1 (struct menu1 *head)
-{
-    if (!head)
-        return NULL;
-    FILE *file1;
-    file1 = fopen (filebuffer1,"wb+");
-    struct menu1 *queue[1000];
-    int first = 0,tail = 0;
-    queue[tail++] = head;//数结构队列
-    if (file1==NULL)
-        return head;
-    while(first < tail)
-    {
-        if (queue[first]->left)  queue[tail++] = queue[first]->left;
-        if (queue[first]->right) queue[tail++] = queue[first]->right;
-        fprintf(file1,"%s %s %s %s\n",queue[first]->sn,queue[first]->name,queue[first]->chat,queue[first]->dor);
-        first++;
-    }
-    fclose(file1);
-    return head;
-}
 
 /*存储成绩信息函数接口*/
 struct menu2* Store2 (struct menu2 *head)

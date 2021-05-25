@@ -98,7 +98,7 @@ struct menu1* Record_1 (struct menu1 *ph,char a[],char b[],char c[],char d[])
         printf ("您输入的学号有重复!请您检查并重新操作 ");
         return ph;
     }
-    ph->height = max(high(ph->left),high(ph->right))+1;
+    ph->height = maxx(high(ph->left),high(ph->right)) + 1;
     return ph;
 }
 

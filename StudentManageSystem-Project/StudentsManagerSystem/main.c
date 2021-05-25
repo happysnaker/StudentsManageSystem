@@ -7,13 +7,6 @@
 #include"../Headers/Core2.h"
 #include"../Headers/Input.h"
 int flag;//用于系统二的多重表重复性验证
-/*struct menu1* Record_1 (struct menu1 *head,char *a,char *b,char *c,char *d);
-struct menu1* Seeit_1  (struct menu1 *head);
-struct menu1* Delete_1 (struct menu1 *head);
-struct menu1* Find_1   (struct menu1 *head,char sp);
-struct menu1* Change_1 (struct menu1 *head);
-struct menu2* Record_2 (struct menu2 *head,char *a,char *b,float c,float d,float e,int change);
-struct menu2* Seeit_2  (struct menu2 *head);*/
 
 /*用于退出程序或者退出登陆的接口函数*/
 void Exit (struct Users *h,struct menu1 *h1,struct menu2 *h2,struct menu2 *h3,struct menu2 *h4,struct menu2 *h5)
@@ -63,14 +56,16 @@ Menu0:
                     head = Read1(head);
                     FILE *file2 = fopen(filebuffer2,"rb+");
                     if (file2 == NULL)      goto Menu1;
-                    /*避免读空文件*/
+                    /*避免读空文件，先读一个字节，如果是EOF就停止读*/
+                    /*这里应该是电脑问题，我的电脑读空文件程序会异常中止，这与操作系统有关*/
                     cp = fgetc(file2);
                     if (cp == EOF)
                     {
                         fclose(file2);
                         goto Menu1;
                     }
-                    ungetc(cp,file2);
+                    ungetc(cp,file2); //如果不为空，把读入的字节放回去
+                    /*具体可以看看feof用法，这个函数并不是读到EOF就停止的，我们需要自己判断是否读到EOF*/
                     while (!feof(file2))
                     {
                         int f = fscanf (file2,"%s %s %f %f %f",Sn2,Name2,&Grade1,&Grade2,&Grade3);

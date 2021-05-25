@@ -194,3 +194,60 @@
 	<windows.h>
 	"../Headers/ShowMap.h"
 
+1621602836 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\core1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core1.h"
+
+1621603604 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\core1.h
+
+1619432515 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\core2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core2.h"
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\core2.h
+
+1621603134 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\fileo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+
+1621603604 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\fileo.h
+
+1621602756 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\input.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+
+1621603556 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+	"../Headers/Input.h"
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\showmap.h
+	<limits.h>
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\input.h
+
+1619432515 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\showmap.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+
