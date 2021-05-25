@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StudentsManagerSystem" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/StudentsManagerSystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/StudentsManagerSystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Headers/Core1.h" />
+		<Unit filename="../Headers/Core2.h" />
+		<Unit filename="../Headers/Everything.h" />
+		<Unit filename="../Headers/FileO.h" />
+		<Unit filename="../Headers/Input.h" />
+		<Unit filename="../Headers/ShowMap.h" />
+		<Unit filename="Core1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Core2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FileO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ShowMap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
