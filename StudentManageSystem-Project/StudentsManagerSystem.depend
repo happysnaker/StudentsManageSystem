@@ -1,0 +1,294 @@
+# depslib dependency file v1.0
+1606810511 source:e:\project\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1608030446 source:e:\project\projectone\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+
+1607864490 e:\project\projectone\headers\showmap.h
+	<limits.h>
+
+1606898855 e:\project\projectone\headers\files.h
+
+1608032895 e:\project\projectone\headers\fileo.h
+	<math.h>
+	<stdbool.h>
+	<conio.h>
+
+1607048471 e:\project\projectone\headers\core.h
+
+1610196852 source:e:\project\project-1\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+	"../Headers/Input.h"
+
+1610194868 e:\project\project-1\headers\showmap.h
+	<limits.h>
+
+1610193442 e:\project\project-1\headers\fileo.h
+
+1610194306 source:e:\project\project-1\studentsmanagersystem\showmap.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+
+1610197181 source:e:\project\project-1\studentsmanagersystem\core1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core1.h"
+
+1610194868 e:\project\project-1\headers\core1.h
+
+1610196852 source:e:\project\project-1\studentsmanagersystem\core2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core2.h"
+
+1610194863 source:e:\project\project-1\studentsmanagersystem\input.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+
+1610194865 e:\project\project-1\headers\core2.h
+
+1609989874 e:\project\project-1\headers\input.h
+
+1610199033 source:e:\project\project-1\studentsmanagersystem\fileo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+
+1610197181 source:e:\project\1-学生信息管理系统\studentsmanagersystem\core1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core1.h"
+
+1610194868 e:\project\1-学生信息管理系统\headers\core1.h
+
+1610255490 source:e:\project\1-学生信息管理系统\studentsmanagersystem\core2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core2.h"
+
+1610194865 e:\project\1-学生信息管理系统\headers\core2.h
+
+1610199033 source:e:\project\1-学生信息管理系统\studentsmanagersystem\fileo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+
+1610193442 e:\project\1-学生信息管理系统\headers\fileo.h
+
+1610194863 source:e:\project\1-学生信息管理系统\studentsmanagersystem\input.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+
+1610196852 source:e:\project\1-学生信息管理系统\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+	"../Headers/Input.h"
+
+1610194868 e:\project\1-学生信息管理系统\headers\showmap.h
+	<limits.h>
+
+1609989874 e:\project\1-学生信息管理系统\headers\input.h
+
+1610194306 source:e:\project\1-学生信息管理系统\studentsmanagersystem\showmap.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\core1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core1.h"
+
+1619431817 e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\headers\core1.h
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\core2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core2.h"
+
+1619431817 e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\headers\core2.h
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\fileo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+
+1619431817 e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\headers\fileo.h
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\input.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+	"../Headers/Input.h"
+
+1619431817 e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\headers\showmap.h
+	<limits.h>
+
+1619431817 e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\headers\input.h
+
+1619431817 source:e:\一些暂时需要的东东\molloc-lab\csapplabs\studentsmanagesystem\学生管理系统项目工程文件\studentsmanagersystem\showmap.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+
+1621602836 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\core1.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core1.h"
+
+1621603604 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\core1.h
+
+1619432515 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\core2.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/Core2.h"
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\core2.h
+
+1621603134 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\fileo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+
+1621603604 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\fileo.h
+
+1621602756 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\input.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+
+1621603556 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+	"../Headers/FileO.h"
+	"../Headers/Core1.h"
+	"../Headers/Core2.h"
+	"../Headers/Input.h"
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\showmap.h
+	<limits.h>
+
+1619432515 e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\headers\input.h
+
+1619432515 source:e:\一些暂时需要的东东\studentsmanagesystem--\studentmanagesystem-project\studentsmanagersystem\showmap.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"../Headers/ShowMap.h"
+
+1621935477 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\core1.c
+	"../Headers/Everything.h"
+
+1621935478 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\core1.h
+
+1621935477 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\core2.c
+	"../Headers/Everything.h"
+
+1621935476 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\core2.h
+
+1621935476 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\fileo.c
+	"../Headers/Everything.h"
+
+1621603604 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\fileo.h
+
+1621935471 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\input.c
+	"../Headers/Everything.h"
+
+1621932631 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\showmap.c
+	"../Headers/Everything.h"
+
+1621935478 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\showmap.h
+	<limits.h>
+
+1621935478 source:e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\studentsmanagersystem\main.c
+	"../Headers/Everything.h"
+
+1621932560 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\everything.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"ShowMap.h"
+	<conio.h>
+	<stdbool.h>
+	"FileO.h"
+	"Core1.h"
+	"Core2.h"
+	"Input.h"
+
+1621935476 e:\githubrepositories\studentsmanagesystem\studentmanagesystem-project\headers\input.h
+
